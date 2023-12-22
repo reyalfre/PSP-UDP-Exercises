@@ -5,6 +5,8 @@ Ejercicios UT4. UDP Parte I
    que el receptor devuelva la línea recibida por el cliente, de vuelta al cliente, precedido
    por una cadena “ECHO “. Por ejemplo, si el emisor manda “Hola, soy Diego”, el receptor
    deberá devolverle “ECHO Hola, soy Diego”.
+   
+
    a. Desde el receptor, para obtener el puerto y dirección del emisor, deberás
    cogerla del datagrama recibido. De esta manera:
 
